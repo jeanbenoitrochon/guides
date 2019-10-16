@@ -1,4 +1,4 @@
-# Recommendations
+# Guides
 
 Source control
 
