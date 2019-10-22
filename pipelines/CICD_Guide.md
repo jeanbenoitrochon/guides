@@ -26,8 +26,9 @@ The success of your pipeline will depend on the implementation and maturity of e
 ## Branch
 * Any change to code should be done in isolation in a separate branch from your "Master" branch
 * Branches should be short lived and merged back into your "Master" branch as early as possible
-* *Notes:* *  "Master" branch refers to your main branch where your latest committed code is stored. In a mature CI/CD implementation the code in this branch would be the same as being executed in production.
- This document is not meant to provide branching strategies, but to enforce that all code changes need to be performed on a branch other then "Master" and that a build should only be done from the "Master" branch, forcing your changes to be merged to the "Master" branch.
+* * *Notes:* *  "Master" branch refers to your main branch where your latest committed code is stored. In a mature CI/CD implementation       the code in this branch would be the same as being executed in production.
+     *  This document is not meant to provide branching strategies, but to enforce that all code changes need to be performed on a branch other 
+     * then "Master" and that a build should only be done from the "Master" branch, forcing your changes to be merged to the "Master" branch.
 
 
 ## Change Tests
@@ -48,9 +49,9 @@ The success of your pipeline will depend on the implementation and maturity of e
 * All other tests deemed necessary are executed
 * Adjustments to code and/or tests may be required and are addressed at this point
 * Tests at this stage focus on but not limited to:  
- * Quality of the code 
- * Functionality (existing and newly introduced) 
- * Security
+  * Quality of the code 
+  * Functionality (existing and newly introduced) 
+  * Security
 
 
 ## Code Review
@@ -83,17 +84,15 @@ The success of your pipeline will depend on the implementation and maturity of e
 * All necessary tests should be executed
 * The step is complete once all tests pass successfully
 * Tests at this stage focus on but not limited to:  
-** Functionality (existing and newly introduced)
-** Security
-** Integration
-
- Adjustments to code and/or tests maybe required and are addressed at this point
+  * Functionality (existing and newly introduced)
+  * Security
+  * Integration
+* Adjustments to code and/or tests maybe required and are addressed at this point
 
 ## Build - Label/Version Source Code
 * A successful execution of the tests triggers labeling the changes to provide a snapshot of the source code at a given time
 * This can be used to:  Compare past changes
 * Return to a certain state of your source code
-
 
 ## Build - Publish to Artifact Repository
 * Last step of CI
@@ -116,10 +115,9 @@ The success of your pipeline will depend on the implementation and maturity of e
 * The successful deployment triggers the execution of the tests
 * Tests ensure the deployed artifact is behaving as expected 
 * Tests at this stage focus on but not limited to:  
-** Security
-** Integration
-** Connectivity
-
+  * Security
+  * Integration
+  * Connectivity
 
 ## Notify Stakeholders
 * If required, the notification is triggered by the successful deployment and execution of tests
@@ -131,8 +129,8 @@ The success of your pipeline will depend on the implementation and maturity of e
 
 ## References
 
-[Continuous Integration and Continuous Delivery Explained] (https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+[Continuous Integration and Continuous Delivery Explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
 
-[Continuous Integration vs Delivery vs Deployment] (https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) 
+[Continuous Integration vs Delivery vs Deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) 
 
-[Introduction to GitLab Flow] (https://docs.gitlab.com/ee/workflow/gitlab_flow.html) 
+[Introduction to GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html) 
