@@ -27,9 +27,9 @@ The success of your pipeline will depend on the implementation and maturity of e
 ## Branch
 * Any change to code should be done in isolation in a separate branch from your "Master" branch
 * Branches should be short lived and merged back into your "Master" branch as early as possible
-* * *Notes:* *  "Master" branch refers to your main branch where your latest committed code is stored. In a mature CI/CD implementation       the code in this branch would be the same as being executed in production.
-     *  This document is not meant to provide branching strategies, but to enforce that all code changes need to be performed on a branch other 
-     * then "Master" and that a build should only be done from the "Master" branch, forcing your changes to be merged to the "Master" branch.
+* _Notes:_  
+     * "Master" branch refers to your main branch where your latest committed code is stored. In a mature CI/CD implementation       the code in this branch would be the same as being executed in production.
+     *  This document is not meant to provide branching strategies, but to enforce that all code changes need to be performed on a branch other then "Master" and that a build should only be done from the "Master" branch, forcing your changes to be merged to the "Master" branch.
 
 
 ## Change Tests
@@ -92,8 +92,9 @@ The success of your pipeline will depend on the implementation and maturity of e
 
 ## Build - Label/Version Source Code
 * A successful execution of the tests triggers labeling the changes to provide a snapshot of the source code at a given time
-* This can be used to:  Compare past changes
-* Return to a certain state of your source code
+* This can be used to:  
+  * Compare past changes
+  * Return to a certain state of your source code
 
 ## Build - Publish to Artifact Repository
 * Last step of CI
