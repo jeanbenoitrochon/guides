@@ -2,7 +2,6 @@
 
 Source control
 
-- [Working with Git](source-control/working-with-git.md)
 - [Migrate from TFVC to Git](source-control/tfvc-to-git.md)
 - [TFS to GCcode (or GitHub)](source-control/tfs-to-gccode.md)
 
