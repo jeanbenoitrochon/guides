@@ -1,22 +1,7 @@
 # Guides
 
-Source control
-
-- [Migrate from TFVC to Git](source-control/tfvc-to-git.md)
-- [TFS to GCcode (or GitHub)](source-control/tfs-to-gccode.md)
-
-Practices
-
-- [Blameless Postmorterm Guideline](practices/postmortem.md)
-
-Pipelines
-
-- [GitLab-Runner Installation and Maintenance](pipelines/gitlab-runner.md)
-
-## More
-
-- [Home](https://esdc-devcop.github.io/)
-- [Recommendations](https://esdc-devcop.github.io/recommendations)
+We produce guides to help developers at ESDC walk-though some complex procedures related to development. This project is used to store the guides for the DevCoP separately from the [root project (esdc-devcop.github.io)](https://github.com/esdc-devcop/esdc-devcop.github.io) while still hosted under the same website.  
+See a [list of our guides](https://esdc-devcop.github.io/guides/).
 
 ## Contributing
 
