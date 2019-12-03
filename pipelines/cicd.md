@@ -4,7 +4,7 @@
 
 The diagram is meant to show at a high level the flow of a CI (Continuous Integration) / CD (Continuous Deployment) pipeline and provide guidance for your implementation.
 
-![CI/CD Pipeline](./assets/cicd/pipeline-drawing.png)
+![CI/CD Pipeline](../assets/cicd/pipeline-drawing.png)
 
 **Continuous integration** establishes a consistent and automated way to apply code changes, test and package applications. Teams practicing continuous integration merge their changes back to the main branch as often as possible and changes are validated by running automated tests against the build. With automation and consistency in the process, teams commit code changes more frequently, which leads to better collaboration, software quality and avoid integration issues. Continuous integration puts a great emphasis on testing automation to check that the application is not broken whenever new commits are integrated into the main branch.
 
