@@ -13,4 +13,5 @@ We produce guides to help developers at ESDC walk-though some complex procedures
 
 ## Pipelines
 
+- [Continuous Integration / Continuous Delivery](pipelines/cicd.md)
 - [GitLab-Runner Installation and Maintenance](pipelines/gitlab-runner.md)
