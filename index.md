@@ -10,6 +10,7 @@ We produce guides to help developers at ESDC walk-though some complex procedures
 ## Practices
 
 - [Blameless Postmorterm Guideline](practices/postmortem.md)
+- [Present at Dev CoP](practices/Present-at-DevCoP.md)
 
 ## Pipelines
 
