@@ -61,3 +61,31 @@ To do that:
 
 Check every few months for updates (put a reminder in your calendar) and follow the instructions.  
 [https://docs.gitlab.com/runner/install/windows.html#update](https://docs.gitlab.com/runner/install/windows.html#update)
+
+## Notes
+
+### Installing on a Server - trial mode
+
+We've installed a Runner on a server currently as a trial, this is here to document what changes were made to get it to work.  
+*Secrets can't be added to a runner on a server*
+
+#### Software Installed
+
+* Notepad++
+* GitLab-Runner
+* Git
+* Node.js
+* MSBuild CLI Tools
+* NuGet
+
+#### User Configurations Setup
+
+* Standard user created
+* Standard user configured with startup script to void the npm proxy settings
+* Standard user granted "Logon as a Service" rights
+* Standard user execution policy set to remotesigned on scope of currentuser
+* Standard user granted ownership of GitLab-Runner install folder
+
+#### Sever Settings
+
+* Mapped deploy folders
